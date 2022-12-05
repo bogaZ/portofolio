@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="node_modules/three/build/three.js"></script>
+    <script src="js/partikelku.js"></script>
+
+    <!-- CSS only -->
+
+    <title>bogaZ</title>
+</head>
+
+<body id="home">
+    <!-- <script>
+        var nama = prompt("Masukkan Nama Lengkap :");
+        alert("Selamat Datang " + nama);
+    </script> -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><img src="img/logo.png" alt="" style="width: 15px;margin-right: 2px;margin-top: -7px;">oga<span style="color: orange">Z</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#organisasi">Organisasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    
+   <div id="canvas" class="canvas"></div> 
+    <div class="coverku">
+       
+    </div>
+    <section style="width: 100%; height: 710px; background: rgba(0, 0, 0, 0.712); position: relative">
+       
+        <div class="container">
+            <div class="row justify-content-center">
+                <center> <img src="img/logo.png" alt="" style="width: 100px; height: 180px;margin-top: 10vh;"></center>
+               
+                <h1 id="judul" class="judul text-white" style="font-family: monospace; margin-top: 5vh; border: 3px solid white; padding: 7px; width: auto; font-size: 3vmax">
+                    boga<span style="color: orange">Z</span>
+                    <span style="color: rgb(255, 255, 255)">|</span>
+                    <span>D E V E L O P M E N T</span>
+                </h1>
+                <p class="text-white text-center mt-2">i'm <span style="color: orange">a programmer</span> & designer website</p>
+                <p class="text-white text-center" style="border: 2px solid orange; width: auto"><span class="text-bold">C o d i n g</span> is my life</p>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <!-- <button class="btn btn-primary" style="width: auto"><a class="nav-link text-white" href="#profile"> My Profile</a></button> -->
+            </div>
+        </div>
+    </section>
+   
+    <img src="https://i.ibb.co/r7JQBCX/DSC00044.jpg" alt="DSC00044" alt="" width="100%" style="padding: 0%; position: absolute" />
+    <!-- Jumbotron -->
+    <section class="jumbotron" id="profile">
+        <div class="container">
+            <div class="row justify-content-center text-white text-center" style="margin-top: -60px">
+                <h2 class="text-center" style="border: 3px solid orange; width: max-content">My Profile</h2>
+                <p>-- This is My Profile --</p>
+            </div>
+
+            <div class="row text-center text-white">
+                <div class="col-md-4" style="border-right: 2px solid orange; padding-top: 3rem; background-color: rgba(0, 0, 0, 0.507)">
+                    <img src="https://i.ibb.co/D8mTNmt/logo-poliwangi.png" alt="logo-poliwangi" width="100px" alt="" style="padding-bottom: 1rem" />
+                    <p><span style="color: orange">Nama</span> : Dwi Bagus Nur Ahmad Fitria</p>
+                    <p><span style="color: orange">NIM</span> : 3 6 1 9 5 5 4 0 1 0 7 6</p>
+                    <p style="padding-bottom: 50px;"><span style="color: orange">Prodi</span> : D III Teknik Informatika</p>
+                </div>
+                <div class="col-md-4" style="padding-top: 1rem">
+                    <img src="https://i.ibb.co/ws9n8t5/index-1.jpg" alt="img" width="200" class="rounded-circle img-thumbnail" />
+                    <h1 class="display-4">Dwi Bagus</h1>
+                    <p class="lead"><i class="bi bi-code-square"></i> Programmer | <i class="bi bi-controller"></i> Gamer | & <i class="bi bi-music-note-beamed"> </i> Music</p>
+                </div>
+                <div class="col-md-4" style="border-left: 2px solid orange; padding-top: 4rem; background-color: rgba(0, 0, 0, 0.507)">
+                    <img src="img/home.png" alt="coding" width="250px" alt="" style="padding-bottom: 15px;width: 100px;margin-top: -15px;"/>
+                    <p><span style="color: orange">Alamat</span> : Tanjungrejo 02/01. Sembulung. Cluring</p>
+                    <p><span style="color: orange">No HP</span> : 083115671593</p>
+                    
+                    <!-- <p><span style="color: orange">Ability</span>: HTML, CSS, & JS</p> -->
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Jubotron -->
+
+    <!-- About -->
+    <section id="about" style="background-color: rgba(0, 0, 0, 0.705); color: white;">
+        <div class="container mt-4">
+            <div class="row text-center justify-content-center">
+                <h2 class="text-center" style="border: 3px solid orange; width: max-content">About Me</h2>
+                <p class="mb-3">-- What do you think about me..? --</p>
+            </div>
+            <div class="row justify-content-center fs-5">
+                <div class="col-md-4 text-center">
+                    <p>
+                        Mahasiswa Politeknik Negeri Banyuwangi (POLIWANGI) Prodi Diploma 3 Tehnik Informatika Semester 4. Alasan saya mengambil jurusan Teknik Informatika karena saya penasaran bagaimana Teknologi Dapat tercipta dan berkembang pesat
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>Hobi saya adalah bermain game online dan bermain alat musik khususnya alat musik gitar dan keyboard (Organ Tunggal). Saya juga suka dengan dunia programing, basic saya didunia programming ada pada algoritma pemrogramman</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end About -->
+
+    <!-- Organisasi -->
+    <section style="background: rgba(0, 0, 0, 0.897);" id="organisasi">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-4">
+                    <div class="card shadow bg-dark mb-5 ">
+                        <img src="img/organisani.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card mb-3 " style="background: transparent;">
+                        <h2 class="text-center p-2" style="border: 3px solid orange; width: max-content;color: white;">Pengalaman Organisasi</h2>
+                    </div>
+                    <div class="row">
+                        <p style="color: white;text-align: justify;">Geniwangi merupakan organisani yang bergerak dibidang seni dimana terdapat berbagai macam aliran seni mulai dari musik, tari tradisional, dance, teater, dan masih banyak lagi. organisasi tersebut juga memiliki bebrapa struktur utama diantaranya ketua dan wakil, ketua divisi, sekertaris, bendahara, humas dan kominfo. saya disana mendapat jabatan sebagai anggota kominfo.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- end organisasi -->
+
+    <!-- skill -->
+    <section id="skill" style="color: white;">
+        <div class="container mt-2 ">
+            <div class="row text-center justify-content-center">
+                <h2 class="text-center" style="border: 3px solid orange; width: max-content">My Skill</h2>
+                <p class="mb-3">-- This is My skill..? --</p>
+            </div>
+            
+            <div class="row mb-5 " >
+                
+                <div class="col-md-3 ">
+                    <div class="card" style="background: transparent;border: none;">
+                        <center>
+                            <img src="img/htmliconku.png" style="width: 200px;" alt="">
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="background: transparent;border: none;">
+                        <center>
+                            <img src="img/cssicon.png" style="width: 177px;" alt="">
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="background: transparent;border: none;">
+                        <center>
+                            <img src="img/jsku.png" style="width: 200px;" alt="">
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="background: transparent;border: none;">
+                        <center>
+                            <img src="img/phpku.png" style="width: 205px;" alt="">
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end skill -->
+    <!--Project-->
+    <section id="project" style="background-color: rgba(0, 0, 0, 0.904)">
+        <div class="container mt-3">
+            <div class="row text-center justify-content-center pt-2 pb-3">
+                <h2 style="border: 3px solid orange; width: max-content" class="text-center text-white">My Project</h2>
+                <p class="text-white">-- Do you like My Project..? --</p>
+            </div>
+            <div class="row text-white">
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow bg-dark">
+                        <img src="https://i.ibb.co/k30KDWd/project2.png" class="card-img-top" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow bg-dark">
+                        <img src="https://i.ibb.co/c2RHk24/project1.png.png" class="card-img-top" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow bg-dark">
+                        <img src="https://i.ibb.co/Tm2p0tn/project3.png" class="card-img-top" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end Project-->
+
+    <!--Contact-->
+    <section id="contact" style="background-color: rgba(0, 0, 0, 0.658); position: relative; color: rgb(255, 255, 255)" class="pb-4">
+        <div class="container mt-3">
+            <div class="row mb-3 justify-content-center text-center">
+                <h2 style="border: 3px solid orange; width: max-content" class="text-center">Contact Me</h2>
+                <p class="mb-3">-- Give me comment --</p>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <script>
+                                function namapromt(a) {
+                                    a = document.getElementById('name').value;
+                                    alert('Selamat Datang ' + a);
+                                }
+                            </script>
+                            <input type="text" class="form-control" id="name" aria-describedby="name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="name" aria-describedby="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label">Deskripsi</label>
+                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="namapromt()">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Contact-->
+
+    <!--footer-->
+    <footer class="bg-dark text white p-3" style="position: relative">
+        <p class="text-white text-center mt-2">Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.facebook.com/bagoez.n.ahmad/" class="text-white">bogaZ</a></p>
+    </footer>
+
+    <!--end footer-->
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+</body>
+
+</html>

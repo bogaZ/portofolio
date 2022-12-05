@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body>
+      
+        <!-- b. windows dialog -->
+        <!-- <script>
+          // function alertku(a){
+          //   a = document.getElementById('input').value;
+          //   alert("Selamat Datang " + a);
+
+          // }
+            
+         var nama =  prompt("masukkan nama");
+          alert("Selamat datang " + nama);
+          
+
+        </script>
+        <button type="button" onclick="alertku()">coba</button>
+        <input type="text" id="input"> -->
+        <!-- <script>
+        function iniAlert() {
+          window.alert('Ini adalah alert');
+        }
+        function iniConfirm() {
+          window.confirm('ApakahAnda ingin lanjut?');
+          if (window.confirm('Apakah Anda ingin lanjut?')) {
+            console.log('Anda ingin lanjut');
+          } else {
+            console.log('Cukup sampai disini');
+          }
+        }
+        function iniPrompt() {
+          window.prompt('Nama Anda', 'Saya');
+        }
+      </script> -->
+      <button type="button" onclick="iniAlert()">Alert</button>
+      <button type="button" onclick="iniConfirm()">Confirm</button>
+      <button type="button" onclick="iniPrompt()">Prompt</button>
+
+        <!--c. Syntax dan penulisan perintah pada JavaScript  -->
+        <!-- <script>
+        var a = 2;
+        var b = 4;
+        console.log('Menampilkan a', a);
+        console.log('Menampilkan b', b);
+      </script> -->
+
+        <!-- e. Variabeldan Tipe Datadalam Javascript-->
+        <!-- <script>
+          
+            var a = 1; //deklarasi variabel bertipe integer
+            var b = 0.5; //deklarasi variabel bertipe float
+            var c = true; //deklarasi variabel bertipe boolean
+            var d = 'saya'; //deklarasi variabel bertipe string
+            console.log(a + b);
+            console.log(a * b);
+            console.log(a + c);
+            console.log(a * b);
+            console.log(a + d);
+            console.log(a * b);
+            {
+              var data = 'selamat pagi';
+              console.log(data);
+            }
+           
+
+            // function variables() {
+            //     {
+            //         const x = 20;
+            //         document.getElementById('coba').innerHTML = data;
+            //         x = 25;
+            //     }
+            // }
+            // function constVariable() {
+            //     //deklarasi array
+            //     const buah = ['mangga', 'jambu', 'jeruk'];
+            //     buah[0] = 'melon'; //diperbolehkan
+            //     for (var i = 0; i < 3; i++) {
+            //         console.log(buah[i]);
+            //     }
+            //     // tidak diperbolehkan
+            //     buah = ['semangka', 'manggis', 'kelengkeng'];
+            //     for (var i = 0; i < 3; i++) {
+            //         console.log(buah[i]);
+            //     }
+            // }
+        </script> -->
+        <!-- <button type="button" onclick="constVariable()">Tampilan</button> -->
+
+        <!-- f. Struktur Kontrol Ifdan Perulanganpada Javascript  -->
+        <!-- <script>
+            bil = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
+            for (i = 0; i <= bil.length; i++) {
+                if (i % 2 == 0) {
+                    console.log(bil[i]);
+                }
+            }
+        </script> -->
+
+        <!-- g. function -->
+        <script>
+            function konversiMeterToCentimeter(m) {
+                document.getElementById('hasil').innerHTML = m * 100;
+            }
+        </script>
+        <input type="text" id="input" />
+        <button onclick='konversiMeterToCentimeter(document.getElementById("input").value)'>Konversi</button>
+        <p id="hasil">cm</p>
+    </body>
+</body>
+
+</html>
